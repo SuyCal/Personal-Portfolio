@@ -128,7 +128,6 @@ nav ul li a:hover {
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
 }
 
@@ -299,16 +298,6 @@ footer {
 .cc-text a:hover {
     text-decoration: underline;
 }
-
-.validation{
-  align-items:end;
-  left: 10;
-  bottom: 120;
-  padding-left: 10px;
-}
-
-
-
 
 
 /*======ABOUT section=======*/
