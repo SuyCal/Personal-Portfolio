@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags and title -->
+    <title>Suyash Callicharan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About page of my personal portfolio">
+    <meta name="keywords" content="web technologies, web design, web skills, web development">
+    <meta name="author" content="Suyash Callicharan">
+    <!-- Favicon "SC logo" and style + CSS Plug-In-->
+    <link rel="icon" href="SC3.ico" type="image/x-icon">
+    <link rel="stylesheet" href="homecss.css">
+</head>
+<body>
+<header>
+    <div class="navigation">
+        <nav>
+            <img src="SC3.png" class="logo" alt="Logo">
+            <ul>
+                <li><a class="nav-button" href="index.html">Home</a></li>
+                <li><a class="nav-button" href="About.html">About</a></li>
+                <li><a class="nav-button" href="projects.html">Projects</a></li>
+                <li><a class="nav-button" href="contact.html">Contacts</a></li>
+                <li><a class="nav-button" href="Reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div id="about">
+    <div class="aboutContainer">
+        <!-- Row with two columns -->
+        <div class="row"> <!--(W3Schools, n.d.) W3Schools Template-->
+            <!-- Left column (image) -->
+            <div class="column1">
+                <img src="generic3.png" alt="Profile picture">
+            </div>
+            <!-- Right column header/text -->
+            <div class="column2">
+                <h1>...About Me</h1>
+                <p class="pAbout">Want to know more about me?</p>
+                <!-- Tabs menu-->
+                <div class="tabs"> <!--(W3Schools 2019b) How TO - Tabs-->
+                    <p class="tab-links active" onclick="openTab(event, 'skills')">My skills</p>
+                    <p class="tab-links" onclick="openTab(event, 'education')">My Education</p>
+                    <p class="tab-links" onclick="openTab(event, 'future')">My Future and Interests</p>
+                </div>
+                <!-- Skills content -->
+                <div class="contents active" id="skills">
+                    <ul>
+                        <li><span>Python</span><br> Harnessing the power of Python to create elegant solutions </li>
+                        <li><span>SQL and Database Manipulation</span><br> Mastering database manipulation with SQL expertise </li>
+                        <li><span>Data Analytics</span><br> Unleashing insights with Excel and Power BI wizardry </li>
+                        <li><span>Computer Repair</span><br> Skilled at assembling and troubleshooting computers and laptops with ease </li>
+                    </ul>
+                </div>
+                <!-- Education content -->
+                <div class="contents" id="education">
+                    <ul>
+                        <li><span>2013 - 2016</span><br> Computer basics to advanced computing program at Knowledgeplus Ltd </li>
+                        <li><span>2014 - 2021</span><br> Secondary Education at MGSS Moka </li>
+                        <li><span>2021 - </span><br> BCOM IT & IS student at Curtin Mauritius </li>
+                    </ul>
+                </div>
+                <!-- Future content -->
+                <div class="contents" id="future">
+                    <p>In the future, my ambition is to successfully complete my degree at Curtin, while simultaneously participating in a variety of internship programs that will help me acquire valuable hands-on experience. As part of my ongoing educational journey, I am considering pursuing a master's degree in either the challenging and cutting-edge field of Information Technology & Systems or the ever-evolving domain of Cybersecurity. <br><br> Ultimately, my aspiration is to not only make a significant impact in the industry but also to potentially share my passion and knowledge as a lecturer, inspiring the next generation of tech enthusiasts. After all, life is an adventure, and exploring these exciting possibilities is what makes it truly enjoyable and fulfilling. <br><br> Since I was like 7 or 8, I was always passionate about computers and still to this day the element I am more at-ease in is dealing with IT in general. My interests always lie on IT and the advancements that happens around us because of its progression.  </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer -->
+<footer>
+    <p class='pFooter'>My socials: </p>
+    <div class="footer-socials">
+        <a href="https://www.discord.com" target="_blank"><img src="discord.png" id="discord" alt="Discord"></a>
+        <a href="https://www.linkedin.com/in/suyash-sc-0701scal?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bs6Am7jq7SH%2B3QvVA4acBkQ%3D%3D" target="_blank"><img src="linkedin3.png" alt="LinkedIn"></a>
+        <p class = "validation">         
+        </footer>
+        
+<!-- JavaScript file plug-in -->
+<script src="HomeScript.js"></script>
+</body>
+</html>
