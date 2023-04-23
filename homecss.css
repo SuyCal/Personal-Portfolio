@@ -87,7 +87,6 @@ nav ul li a:hover {
     border-radius: 2.1875rem;
     padding: 0.625rem 1.25rem;
     font-size: 1.2em;
-    transition: 0.2s;
     cursor: pointer;
 }
 
