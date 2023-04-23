@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   });
   
+  
 //About
   function openTab(evt, tabName) {         //(W3Schools 2019b) How TO - Tabs
     var i, contents, tabLinks;
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
 
  //projects  
 // Get the modal
